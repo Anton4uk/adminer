@@ -2,7 +2,7 @@ FROM alpine:3.6
 
 ENV ADMINER_VER 4.3.1
 
-ENV ADMINER_URL https://github.com/vrana/adminer/releases/download/v${ADMINER_VER}/adminer-${ADMINER_VER}-mysql-en.php
+ENV ADMINER_URL https://github.com/vrana/adminer/releases/download/v${ADMINER_VER}/adminer-${ADMINER_VER}-en.php
 ENV ADMINER_THEME_URL https://raw.githubusercontent.com/vrana/adminer/master/designs/nicu/adminer.css
 
 RUN apk add --update --no-cache \
