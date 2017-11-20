@@ -15,7 +15,8 @@ RUN apk add --update --no-cache \
         php7-mbstring \
         php7-pdo \
         php7-pdo_mysql \
-        php7-mysqli && \
+        php7-mysqli \
+        php7-pgsql && \
 
     sed -i \
         -e "s/^expose_php.*/expose_php = Off/" \
